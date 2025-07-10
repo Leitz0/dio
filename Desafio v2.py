@@ -77,7 +77,7 @@ def filtrar_usuario(cpf, usuarios):
 
 def criar_conta(agencia, numero_conta, usuarios):
     cpf=input("Informe o CPF do usuário: ")
-    usuario = filtra_usuario(cpf, usuarios)
+    usuario = filtrar_usuario(cpf, usuarios)
 
     if usuario:
         print("\n=== Conta criada com sucesso! ===")
